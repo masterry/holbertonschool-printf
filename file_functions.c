@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  *print_char - prints character
@@ -13,7 +13,6 @@ int print_char(va_list args)
 	_putchar(va_arg(args, int));
 	return (1);
 }
-
 
 /**
  *print_str - prints string
@@ -47,4 +46,3 @@ int print_pct(va_list args)
 	(void)args;
 	return (write(1, "%", 1));
 }
-
